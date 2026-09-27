@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -183,7 +184,7 @@ public class MainActivity extends Activity {
         head.setPadding(0, 0, 0, 10);
 
         TextView title = tv("FocusTrack", 28, TEXT);
-        title.setTypeface(null, Typeface.BOLD); // if you want bold style
+        title.setTypeface(null, Typeface.BOLD);
         head.addView(title);
 
         root.addView(head);
